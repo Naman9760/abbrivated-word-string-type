@@ -1,0 +1,1 @@
+# abbrivated-word-string-type
