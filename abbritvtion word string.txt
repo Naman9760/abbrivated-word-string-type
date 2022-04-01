@@ -1,0 +1,13 @@
+string nme = "Naman Kumar Diwaker";
+            string[] n1 = nme.Split(" ");
+            StringBuilder n2 = new StringBuilder();
+            for (int i = 0; i < n1.Length-1;i++)
+            {
+                // Console.WriteLine(i);
+
+                n2.Append(n1[i].Substring(1, 2).ToUpper());
+                n2.Append(". ");
+            }
+            n2.Append(n1[n1.Length - 1]);
+            Console.WriteLine(n2);
+            Console.ReadLine(); 
